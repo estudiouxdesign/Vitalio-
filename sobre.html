@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre | Vitalio Saúde</title>
+  <meta name="description" content="Nascemos no encontro entre ciência, natureza e propósito — para transformar o cuidado respiratório.">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Styles & Scripts -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    .page-header {
+      padding: 10rem 0 4rem;
+      text-align: center;
+      background-color: var(--bg-secondary);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .page-header h1 {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .history-timeline {
+      margin-top: 3rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .timeline-item {
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      padding: 2rem;
+      border-top: 4px solid var(--primary);
+      box-shadow: var(--shadow-sm);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" aria-label="Vitalio Home">
+        <span>V</span>ITALIO
+      </a>
+      <nav id="nav-links" class="nav-links">
+        <a href="index.html" data-i18n="nav.home">Início</a>
+        <a href="produtos.html" data-i18n="nav.products">Produtos</a>
+        <a href="sobre.html" class="active" data-i18n="nav.about">Sobre</a>
+        <a href="contato.html" data-i18n="nav.contact">Contato</a>
+      </nav>
+      <div class="nav-controls">
+        <button class="lang-switch" id="lang-toggle" aria-label="Toggle Language">EN</button>
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle Theme" data-i18n-title="nav.toggleTheme">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header fade-in">
+      <div class="container">
+        <h1 data-i18n="sobre.heroTitle">Respirar é o que nos une. <span class="text-gradient">Inovar é o que nos move.</span></h1>
+        <p data-i18n="sobre.heroText">Nascemos no encontro entre ciência, natureza e propósito — para transformar o cuidado respiratório em um movimento de impacto humano e ambiental.</p>
+      </div>
+    </div>
+
+    <section class="container fade-in" style="padding: 4rem 1.5rem;">
+      <div class="grid-2">
+        <div>
+          <h2 data-i18n="sobre.story.title">Onde a inovação nasce do cuidado e o cuidado se transforma em futuro</h2>
+          <p data-i18n="sobre.story.p1">A Vitalio nasceu em um momento em que o mundo inteiro buscava respirar melhor — literal e simbolicamente. Em meio à pandemia, um gesto simples de cuidado despertou a ideia de criar um método capaz de fortalecer os pulmões e devolver às pessoas a confiança no próprio corpo.</p>
+          <p data-i18n="sobre.story.p2">O que começou como uma iniciativa solidária evoluiu para um método estruturado de fortalecimento respiratório — e, logo depois, para uma solução tecnológica que permitiria acompanhar o progresso de cada pessoa de forma personalizada e acessível.</p>
+          <p data-i18n="sobre.story.p3">Ao longo do caminho, percebemos que o cuidado poderia ir além da tecnologia. Descobrimos nas plantas nativas da Amazônia um poder natural que, aliado à ciência, poderia amplificar os benefícios respiratórios.</p>
+        </div>
+        <div class="feature-img-container shadow-lg">
+          <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Profissionais de saúde e inovação trabalhando juntos">
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-secondary split-content fade-in">
+      <div class="container">
+        <div class="grid-2">
+          <div>
+            <h2 data-i18n="sobre.essence.title">Nossa essência</h2>
+            <p data-i18n="sobre.essence.mission">Nossa missão é tornar a saúde acessível a todos, por meio de soluções inovadoras que combinam ciência, tecnologia e natureza.</p>
+            <br>
+            <h4 data-i18n="sobre.essence.values">Valores que nos guiam:</h4>
+            <ul>
+              <li data-i18n="sobre.essence.v1" style="margin-bottom: 0.5rem; color: var(--text-muted);"><strong>Integridade:</strong> agir com transparência e responsabilidade;</li>
+              <li data-i18n="sobre.essence.v2" style="margin-bottom: 0.5rem; color: var(--text-muted);"><strong>Comprometimento:</strong> entregar resultados consistentes e duradouros;</li>
+              <li data-i18n="sobre.essence.v3" style="margin-bottom: 0.5rem; color: var(--text-muted);"><strong>Audácia:</strong> inovar de forma consciente, buscando soluções que realmente transformem vidas.</li>
+            </ul>
+          </div>
+          <div>
+            <h2 data-i18n="sobre.team.title">Nossa Equipe</h2>
+            <p data-i18n="sobre.team.text">Nossa equipe é o coração da Vitalio. Unimos experiência em saúde, tecnologia e gestão, movidos por um propósito comum: transformar vidas por meio da saúde respiratória.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container split-content fade-in text-center">
+      <h2 data-i18n="sobre.milestones.title">Marcos que Inspiram Futuro</h2>
+      <div class="history-timeline text-left">
+        <div class="timeline-item">
+          <h3 data-i18n="sobre.milestones.m1.title" style="color: var(--primary);">Lançamento MVP</h3>
+          <p data-i18n="sobre.milestones.m1.text">Lançamento do MVP do Método Vitalio</p>
+        </div>
+        <div class="timeline-item">
+          <h3 data-i18n="sobre.milestones.m2.title" style="color: var(--primary);">Acelerações e Parcerias</h3>
+          <p data-i18n="sobre.milestones.m2.text">Participação no Like a Boss, Fast Motion, Inovativa Brasil. Parcerias com Hospital Sírio Libanês e Fiocruz.</p>
+        </div>
+        <div class="timeline-item">
+          <h3 data-i18n="sobre.milestones.m4.title" style="color: var(--primary);">Lançamento Biomas</h3>
+          <p data-i18n="sobre.milestones.m4.text">Lançamento do Biomas e incubação no Inova FAPTO.</p>
+        </div>
+        <div class="timeline-item">
+          <h3 data-i18n="sobre.milestones.m5.title" style="color: var(--primary);">Expansão e Impacto</h3>
+          <p data-i18n="sobre.milestones.m5.text">Nova versão do app e consolidação do impacto socioambiental.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><span>V</span>ITALIO</a>
+          <p data-i18n="footer.desc">Mais que um produto, um elo entre natureza, ciência e propósito.</p>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="footer.contact">Contato</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:contato@vitalio.com">contato@vitalio.com</a></li>
+            <li><a href="mailto:suporte@vitalio.com">suporte@vitalio.com</a></li>
+            <li>Palmas - TO, 77024-010</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="footer.legal">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#" data-i18n="footer.privacy">Política de Privacidade</a></li>
+            <li><a href="#" data-i18n="footer.terms">Termos de Uso</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.rights">&copy; 2026 VITALIO. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

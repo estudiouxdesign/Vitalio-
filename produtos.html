@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos | Vitalio Saúde</title>
+  <meta name="description" content="Conheça nossos produtos: Biomas, Vitalio App e o Método MCFP.">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Styles & Scripts -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    .page-header {
+      padding: 10rem 0 4rem;
+      text-align: center;
+      background-color: var(--bg-secondary);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .page-header h1 {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" aria-label="Vitalio Home">
+        <span>V</span>ITALIO
+      </a>
+      <nav id="nav-links" class="nav-links">
+        <a href="index.html" data-i18n="nav.home">Início</a>
+        <a href="produtos.html" class="active" data-i18n="nav.products">Produtos</a>
+        <a href="sobre.html" data-i18n="nav.about">Sobre</a>
+        <a href="contato.html" data-i18n="nav.contact">Contato</a>
+      </nav>
+      <div class="nav-controls">
+        <button class="lang-switch" id="lang-toggle" aria-label="Toggle Language">EN</button>
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle Theme" data-i18n-title="nav.toggleTheme">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header fade-in">
+      <div class="container">
+        <h1 data-i18n="produtos.title">Três expressões de um <span class="text-gradient">mesmo propósito:</span> respirar melhor o agora e o amanhã</h1>
+        <p data-i18n="produtos.subtitle">Cada produto Vitalio nasce do encontro entre ciência, natureza e cuidado humano — para promover saúde, impacto positivo e um futuro sustentável.</p>
+      </div>
+    </div>
+
+    <section id="biomas" class="split-content fade-in">
+      <div class="container">
+        <div class="grid-2">
+          <div>
+            <span class="hero-badge" data-i18n="produtos.badge1">Natureza & Sustentabilidade</span>
+            <h2 data-i18n="produtos.biomas.title">Da biodiversidade brasileira, um ativo natural com potencial global</h2>
+            <p data-i18n="produtos.biomas.p1">Biomas é o nosso blend de óleos de sucupira, andiroba e copaíba — uma combinação poderosa que alivia sintomas respiratórios e potencializa o fortalecimento pulmonar.</p>
+            <p data-i18n="produtos.biomas.p2">Mais que um produto, é o primeiro passo da Vitalio rumo a uma cadeia sustentável: buscamos escalar a produção de forma responsável, fomentando cooperativas e pequenos produtores locais.</p>
+          </div>
+          <div class="feature-img-container shadow-lg">
+            <img src="https://images.unsplash.com/photo-1608222351212-18fe0ec7b114?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Óleo essencial natural Biomas">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="app" class="split-content bg-secondary reverse fade-in">
+      <div class="container">
+        <div class="grid-2">
+          <div class="feature-img-container shadow-lg">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dashboard do aplicativo de saúde em um tablet">
+          </div>
+          <div>
+            <span class="hero-badge" data-i18n="produtos.badge2">Tecnologia em Saúde</span>
+            <h2 data-i18n="produtos.app.title">Tecnologia que nasceu do cuidado — para devolver autonomia à saúde</h2>
+            <p data-i18n="produtos.app.p1">Criado durante a pandemia para acompanhar o progresso de pacientes à distância, o Vitalio App consolidou a expertise da Vitalio em transformar ciência respiratória em tecnologia acessível.</p>
+            <p data-i18n="produtos.app.p2">Em breve, lançaremos uma nova versão centrada na experiência do usuário: trilhas de saúde respiratória personalizadas, gamificação para engajamento contínuo e inteligência artificial.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="metodo" class="split-content fade-in">
+      <div class="container">
+        <div class="grid-2">
+          <div>
+            <span class="hero-badge" data-i18n="produtos.badge3">Ciência & Prática</span>
+            <h2 data-i18n="produtos.metodo.title">O início de tudo: um método que uniu ciência, respiração e esperança</h2>
+            <p data-i18n="produtos.metodo.p1">O Método Vitalio (MCFP) foi o nosso primeiro passo. Criado para ajudar pessoas a expandirem a capacidade pulmonar e a confiança no próprio corpo, tornou-se o alicerce da nossa jornada.</p>
+            <p data-i18n="produtos.metodo.p2">Hoje, ele vive dentro do Vitalio App e continua se expandindo para versões especializadas (gestantes, atletas, idosos).</p>
+          </div>
+          <div class="feature-img-container shadow-lg">
+            <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sessão de prática de respiração e yoga">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container text-center split-content fade-in">
+      <h2 data-i18n="produtos.cta.title">Vamos respirar juntos?</h2>
+      <p data-i18n="produtos.cta.subtitle">Entre em contato para parcerias, distribuição ou para conhecer mais sobre nossos produtos.</p>
+      <a href="contato.html" class="btn btn-primary mt-4" data-i18n="nav.contact" style="margin-top: 2rem;">Contato</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><span>V</span>ITALIO</a>
+          <p data-i18n="footer.desc">Mais que um produto, um elo entre natureza, ciência e propósito.</p>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="footer.contact">Contato</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:contato@vitalio.com">contato@vitalio.com</a></li>
+            <li><a href="mailto:suporte@vitalio.com">suporte@vitalio.com</a></li>
+            <li>Palmas - TO, 77024-010</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="footer.legal">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#" data-i18n="footer.privacy">Política de Privacidade</a></li>
+            <li><a href="#" data-i18n="footer.terms">Termos de Uso</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.rights">&copy; 2026 VITALIO. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

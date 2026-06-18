@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitalio Saúde | Inovação e Cuidado Respiratório</title>
+    <meta name="description" content="Da biodiversidade brasileira nasce um blend que une inovação, sustentabilidade e valor global para a sua saúde respiratória.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" aria-label="Vitalio Home">
+                <span>V</span>ITALIO
+            </a>
+            <nav id="nav-links" class="nav-links">
+                <a href="index.html" class="active" data-i18n="nav.home">Início</a>
+                <a href="produtos.html" data-i18n="nav.products">Produtos</a>
+                <a href="sobre.html" data-i18n="nav.about">Sobre</a>
+                <a href="contato.html" data-i18n="nav.contact">Contato</a>
+            </nav>
+            <div class="nav-controls">
+                <button class="lang-switch" id="lang-toggle" aria-label="Toggle Language">EN</button>
+                <button class="icon-btn" id="theme-toggle" aria-label="Toggle Theme" data-i18n-title="nav.toggleTheme">
+                    <span id="theme-icon">🌙</span>
+                </button>
+                <button class="menu-toggle" id="mobile-menu" aria-label="Toggle Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container">
+            <div class="grid-2">
+                <div class="hero-content fade-in">
+                    <span class="hero-badge" data-i18n="home.badge">Inovação em Saúde</span>
+                    <h1 data-i18n="home.heroTitle">Mais que um produto, um elo entre <span class="text-gradient">natureza, ciência e propósito.</span></h1>
+                    <p data-i18n="home.heroText">Da biodiversidade brasileira nasce um blend que une inovação, sustentabilidade e valor global para a sua saúde respiratória.</p>
+                    <a href="produtos.html#biomas" class="btn btn-primary" data-i18n="home.heroCTA">Conheça o Biomas</a>
+                </div>
+                <div class="hero-image fade-in">
+                    <!-- Placeholder using Unsplash for demo purposes, representing nature/science -->
+                    <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Plantas e ciência, representando ingredientes naturais">
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Highlight: App -->
+        <section class="split-content bg-secondary" id="app">
+            <div class="container fade-in">
+                <div class="grid-2">
+                    <div class="feature-img-container shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pessoa utilizando smartphone com app de saúde">
+                    </div>
+                    <div>
+                        <h2 data-i18n="home.section1.title">Tecnologia que nasceu do cuidado</h2>
+                        <p data-i18n="home.section1.text">O Vitalio App nasceu da necessidade de acompanhar e apoiar pessoas em seu processo de fortalecimento pulmonar — conectando tecnologia, cuidado e autonomia.</p>
+                        <a href="produtos.html#app" class="btn btn-outline" data-i18n="home.section1.cta">Conheça nosso App</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Highlight: Method -->
+        <section class="split-content reverse" id="metodo">
+            <div class="container fade-in">
+                <div class="grid-2">
+                    <div class="feature-img-container shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pessoa praticando exercícios respiratórios ao ar livre">
+                    </div>
+                    <div>
+                        <h2 data-i18n="home.section2.title">Do cuidado humano nasce um método</h2>
+                        <p data-i18n="home.section2.text">O Método Vitalio de Consciência e Fortalecimento Pulmonar foi criado para ajudar pessoas a expandirem a capacidade pulmonar e a confiança no próprio corpo.</p>
+                        <a href="produtos.html#metodo" class="btn btn-outline" data-i18n="home.section2.cta">Conheça nosso método</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo"><span>V</span>ITALIO</a>
+                    <p data-i18n="footer.desc">Mais que um produto, um elo entre natureza, ciência e propósito.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title" data-i18n="footer.contact">Contato</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:contato@vitalio.com">contato@vitalio.com</a></li>
+                        <li><a href="mailto:suporte@vitalio.com">suporte@vitalio.com</a></li>
+                        <li>Palmas - TO, 77024-010</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title" data-i18n="footer.legal">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="footer.privacy">Política de Privacidade</a></li>
+                        <li><a href="#" data-i18n="footer.terms">Termos de Uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.rights">&copy; 2026 VITALIO. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/i18n.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
