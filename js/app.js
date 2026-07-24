@@ -7,18 +7,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('theme-toggle');
   const themeIcon = document.getElementById('theme-icon');
   
-  // Check local storage or system preference
+  // Use the user's saved preference, defaulting to light on the first visit
   const getPreferredTheme = () => {
     const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
+    if (savedTheme === 'light' || savedTheme === 'dark') {
       return savedTheme;
     }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return 'light';
   };
 
-  const setTheme = (theme) => {
+  const setTheme = (theme, persist = false) => {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
+    if (persist) {
+      localStorage.setItem('theme', theme);
+    }
     
     // Update icon (using simple Unicode/Feather icon representation for now, assuming external libraries later if needed)
     if (theme === 'dark') {
@@ -36,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     themeToggle.addEventListener('click', () => {
       const currentTheme = document.documentElement.getAttribute('data-theme');
       const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-      setTheme(newTheme);
+      setTheme(newTheme, true);
     });
   }
 
